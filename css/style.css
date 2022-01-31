@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+header{
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+}
+.button-ios{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    padding: 15px 20px;
+}
+.button-mac{
+    text-decoration: none;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    padding: 15px 20px;
+    
+}
+.header-text{
+    margin: 0px 200px;
+}
+
+/* 
+=============
+Responsive
+=============
+ */
+
+/* mobile section */
+@media only screen and (max-width:688px) {
+    header{
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
+    .header-text{
+        margin: 0px;
+    }
+
+    
+}
