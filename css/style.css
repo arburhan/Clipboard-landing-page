@@ -5,6 +5,7 @@ body{
 header{
     background-image: url("../images/bg-header-desktop.png");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .button-ios{
     text-decoration: none;
@@ -34,6 +35,7 @@ Responsive
     header{
         background-image: url(../images/bg-header-mobile.png);
         background-repeat: no-repeat;
+        background-size: cover;
     }
     .header-text{
         margin: 0px;
