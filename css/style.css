@@ -7,6 +7,12 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+footer{
+    background-color: #f5f6f8;
+}
+.footer-text-color{
+    color: #212529;
+}
 .button-ios{
     text-decoration: none;
     color: white;
@@ -22,6 +28,9 @@ header{
 }
 .header-text{
     margin: 0px 200px;
+}
+.row{
+    --bs-gutter-x: 0px;
 }
 
 /* 
