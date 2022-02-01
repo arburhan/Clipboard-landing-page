@@ -18,20 +18,20 @@ footer{
     color: white;
     background-color: hsl(171, 66%, 44%);
     padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .button-mac{
     text-decoration: none;
     color: white;
     background-color: hsl(233, 100%, 69%);
     padding: 15px 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     
 }
 .header-text{
     margin: 0px 200px;
 }
-.row{
-    --bs-gutter-x: 0px;
-}
+
 
 /* 
 =============
@@ -49,6 +49,5 @@ Responsive
     .header-text{
         margin: 0px;
     }
-
-    
 }
+
